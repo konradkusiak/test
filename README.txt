@@ -1,2 +1,2 @@
 testing CODEOWNERS file
-test
+test2
