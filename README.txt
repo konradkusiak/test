@@ -1,2 +1,3 @@
 testing CODEOWNERS file
-test2
+test3
+teraz ja! cała na biało
