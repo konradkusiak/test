@@ -4,19 +4,16 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>test.test</groupId>
-    <artifactId>parent</artifactId>
+    <parent>
+        <groupId>test.test</groupId>
+        <artifactId>child2</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>child2child</artifactId>
     <packaging>pom</packaging>
     <version>${revision}</version>
-    <name>Parent</name>
+    <name>Child2child</name>
 
-    <properties>
-        <revision>0.0.1</revision>
-    </properties>
-
-    <modules>
-        <module>child1</module>
-        <module>child2</module>
-    </modules>
 
 </project>
